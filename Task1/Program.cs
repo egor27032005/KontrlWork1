@@ -3,11 +3,11 @@ Console.Write("Введите количество строк, которые х
 int n = Convert.ToInt32(Console.ReadLine());
 string[] CreateArrayDouble(int size)
 {
-            string[] strs = new string[n]; //Объявляем массив строк длиной n (которую ввёл пользователь)
+            string[] strs = new string[n]; 
             for (int i = 0; i < size; i++)
             {
                 Console.Write("Введите строку №{0}:\r\n    ", i + 1);
-                strs[i] = Console.ReadLine(); //Заполняем его
+                strs[i] = Console.ReadLine(); 
             }
     return strs;
 }
